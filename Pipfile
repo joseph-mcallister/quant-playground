@@ -8,6 +8,7 @@ jupyter = "*"
 requests = "*"
 pandas = "*"
 numpy = "*"
+matplotlib = "*"
 
 [dev-packages]
 
