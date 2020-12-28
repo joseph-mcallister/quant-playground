@@ -1,5 +1,4 @@
 # quant-trading
-
 ## Data Sources
 - Bitcoin Coinbase Exchange Historic Prices: https://www.coinbase.com/api/v2/assets/prices/5b71fc48-3dd3-540c-809b-f8c94d0e68b5?base=USD
 - Coinbase API Docs: https://docs.pro.coinbase.com/#get-historic-rates
@@ -11,3 +10,8 @@
   - "is bitcoin crashing"
   - "how to buy bitcoin"
 - [ ] Last n days daily S&P price data
+
+## Setup
+1. Install Python3 and pipenv
+2. `pipenv run` to start a shell with the virtual env
+3. `jupyter notebook`
