@@ -13,5 +13,7 @@
 
 ## Setup
 1. Install Python3 and pipenv
-2. `pipenv run` to start a shell with the virtual env
-3. `jupyter notebook`
+2. `pipenv shell` to start a shell with the virtual env
+3. `pipenv install` to install dependencies to the virtual env
+4. `python -m ipykernel install --user --name=quant-trading` to make virtual env available as kernel for jupyter
+5. `jupyter notebook`
