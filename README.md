@@ -13,7 +13,11 @@
 
 ## Setup
 1. Install Python3 and pipenv
-2. `pipenv shell` to start a shell with the virtual env
-3. `pipenv install` to install dependencies to the virtual env
-4. `python -m ipykernel install --user --name=quant-trading` to make virtual env available as kernel for jupyter
-5. `jupyter notebook`
+1. `pipenv shell` to start a shell with the virtual env
+1. `pipenv install` to install dependencies to the virtual env
+1. `pip install git+https://github.com/bartosh/backtrader.git@ccxt` install Ed Baratosh's branch with cctx support (never added to main repository)
+1. `python -m ipykernel install --user --name=quant-trading` to make virtual env available as kernel for jupyter
+1. `jupyter notebook`
+
+## Backtrader
+Requires a special bra
