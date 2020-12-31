@@ -11,6 +11,7 @@ numpy = "*"
 matplotlib = "*"
 backtesting = "*"
 traitlets = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
