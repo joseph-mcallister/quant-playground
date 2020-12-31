@@ -4,12 +4,18 @@
 - Coinbase API Docs: https://docs.pro.coinbase.com/#get-historic-rates
 
 ## Potential Features
-- [ ] Last 24 hour spot price
-- [ ] Last n days daily Bitcoin price data
+- [x] Last 24 hour spot price
+- [x] Last n days daily Bitcoin price data
 - [ ] Google Search Trends Previous 7 days
   - "is bitcoin crashing"
   - "how to buy bitcoin"
 - [ ] Last n days daily S&P price data
+
+## Technical Indicators
+- [ ] Bollinger Bands
+- [ ] Relative Strength Index (RSI)
+- [ ] Momentum
+- [ ] Z-score 
 
 ## Setup
 1. Install Python3 and pipenv
@@ -20,4 +26,14 @@
 1. `jupyter notebook`
 
 ## Backtrader
-Requires a special bra
+Requires a special branch of backtrader with support for cctx (live exchanges) for data feeds
+
+## Baseline
+Scenario
+- $10,000 starting cash
+- January 1st, 2016 - December 31st, 2020
+- Strategy: Market Buy and HODL
+Performance
+- Total Return: 413%
+- Sharpe Ratio: 0.707
+- Maximum Drawdown: 83.69361893711935%
