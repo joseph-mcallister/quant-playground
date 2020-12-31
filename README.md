@@ -37,3 +37,5 @@ Performance
 - Total Return: 413%
 - Sharpe Ratio: 0.707
 - Maximum Drawdown: 83.69361893711935%
+
+[Plot](https://raw.githubusercontent.com/joseph-mcallister/quant-trading/main/images/baseline.png?raw=true)
