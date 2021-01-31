@@ -12,6 +12,7 @@ matplotlib = "*"
 backtesting = "*"
 traitlets = "*"
 scikit-learn = "*"
+pytrends = "*"
 
 [dev-packages]
 
