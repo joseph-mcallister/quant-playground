@@ -13,6 +13,7 @@ backtesting = "*"
 traitlets = "*"
 scikit-learn = "*"
 pytrends = "*"
+backtrader = "*"
 
 [dev-packages]
 
