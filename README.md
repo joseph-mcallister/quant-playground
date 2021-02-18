@@ -38,4 +38,10 @@ Performance
 - Sharpe Ratio: 0.707
 - Maximum Drawdown: 83.69361893711935%
 
+## Neural Network Strategy Price Only
+Model
+- Neural Network binary classifier on hourly tick data
+- Features are all moving average diffs over different lookbacks
+Performance
+
 [Plot](https://raw.githubusercontent.com/joseph-mcallister/quant-trading/main/images/baseline.png?raw=true)
